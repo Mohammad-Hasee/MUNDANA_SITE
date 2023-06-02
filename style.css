@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: 'Playfair Display', serif;*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/* nav section starts here */
+nav{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 0px;
+}
+.nav_inner{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+}
+.navbar_nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar_nav ul li{
+    list-style: none;
+}
+.navbar_nav ul li a{
+    text-decoration: none;
+    font-size: 16;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    padding: 8px 15px;
+    justify-content: start;
+}
+.navbar_brand{
+    flex: 1 1 100%;
+}
+.navbar_brand a{
+    font-size: 22;
+    font-weight: 700;
+    font-family:'Playfair Display', serif;
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 1.5;
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+.navbar_nav{
+    flex: 1 1 720%;
+}
+.navbar_nav a{
+    font-size: 22;
+    font-weight: 700;
+    font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+    line-height: 1.5;
+}
+.navbar_nav a span{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #ffffff;
+    background-color: #7832e2;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0px 5px;
+}
+.navbar_button{
+    flex: 1 1 100%;
+    display: inline-block;
+}
+.navbar_button button{
+    font-size: 15;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    background-color: #ffffff;
+    border-radius: 2px;
+    text-align: right;
+}
+.navbar_button button a{
+    color: #03a87c;
+    display: inline-block;
+    padding: 10px 19px 10px 20px;
+    text-decoration: none;
+}
+/* nav section ending here */
+/* heading section starts here */
+header{
+    width: 100%;
+    box-sizing: border-box;
+}
+.header_inner{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+}
+.header_content{
+    width: 50%;
+    background-color: #E8F3EC;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+}
+.header_heading{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 150px 5px 50px;
+    margin: 0px 0px 0px 0px;
+}
+.header_paragraph{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 0px 5px 50px;
+    margin: 0px 0px 0px 0px;
+    text-align:start;
+    flex-wrap: wrap;
+}
+.header_heading h1{
+    font-size: 40;
+    font-weight: 700;
+    font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5;
+    color: #212529;
+}
+.header_paragraph p{
+    font-size: 16;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    line-height: 1.5;
+    color: #212529;
+}
+.header_paragraph button {
+    font-size: 16;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    background-color: #212529;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.header_paragraph button a{
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.header_banner{
+    width: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+/* heading section ending here */
+
+/* article section starts here */
+article{
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 30px;
+}
+.article_inner{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+}
+.article_left{
+    flex: 1 1 100%;
+    box-sizing: border-box;
+}
+.article_right{
+    flex: 1 1 100%;
+    box-sizing: border-box;
+}
+.article_bottom_content h2{
+    font-size: 24;
+    font-weight: 700;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #212529;
+    margin-top: 10px;
+}
+.article_bottom_content p{
+    font-size: 16;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #212529;
+    margin: 20px 0px;
+}
+.article_bottom_content a{
+    font-size: 14;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #6c757d;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+.article_right_side_top{
+    display: flex;
+    flex: 1 1 100%;
+}
+.right_top_image{
+    flex: 1 1 100%;
+}
+.right_top_content{
+    flex: 1 1 300%;
+}
+.right_top_content a{
+    font-size: 16;
+    font-weight: 700;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #212529;
+    text-decoration: none;
+    margin: 10px 0px 10px 20px;
+    line-height: 2.0;
+}
+.right_top_content span{
+    font-size: 14;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #6c757d;
+    margin: 10px 0px 10px 20px;
+    line-height: 2.0;
+}
+.right_top_content small{
+    font-size: 14;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #6c757d;
+    margin: 10px 0px 10px 20px;
+    line-height: 2.0;
+}
+.article_right_side_top{
+    margin: 0px 0px 10px 10px;
+}
+/* article section ending here */
+/* stories section starts here */
+section{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section_inner{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+}
+.all_stories{
+    flex: 1 1 250%;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.popular_stories{
+    flex: 1 1 100%;
+    box-sizing: border-box;
+}
+.title h3{
+    font-size: 20;
+    font-weight: 700;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #212529;
+    margin: 20px 0px;
+    border-bottom:1px solid #c2c2c2;
+    padding-bottom: 20px;
+}
+.title h3 span{
+    border-bottom: 1px solid #212529;
+    padding-bottom: 20px;
+}
+.stories_block{
+    display: flex;
+}
+.stories_content{
+    flex: 1 1 300%;
+    padding: 10px;
+}
+.stories_image{
+    flex: 1 1 100%;
+}
+.stories_content h2{
+    font-size: 24;
+    font-weight: 700;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #212529;
+}
+.stories_content p{
+    font-size: 16;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #212529;
+    padding-top: 10px;
+}
+.stories_content a{
+    font-size: 20;
+    font-weight: 700;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #212529;
+    text-decoration: none;
+}
+.stories_content span{
+    font-size: 14;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #6c757d;
+    display: block;
+    padding-top: 10px;
+}
+.stories_content small{
+    font-size: 14;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #6c757d;
+    padding-top: 10px;
+    display: block;
+}
+.popular_stories_right_side_top{
+    display: flex;
+    margin-top: 5px;
+}
+.popular_stories_top_number{
+    flex: 1 1 100%;
+    box-sizing: border-box;
+}
+.popular_stories_top_content{
+    flex: 1 1 600%;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.popular_stories_top_number span{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #212529;
+    text-align: center;
+}
+.popular_stories_top_content a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #212529;
+    text-decoration: none;
+}
+.popular_stories_top_content p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color: #6c757d;
+    margin-top: 10px;
+}
+/* stories section ending here */
+/* footer section starts here */
+footer{
+    width: 100%;
+    box-sizing: border-box;
+}
+.footer_inner{
+    width: 80%;
+    height: 300px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    border-top: 1px solid black;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 30px 0px;
+
+}
+.footer_inner p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color:#6c757d;
+}
+.footer_inner p span{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+    color:#6c757d;
+    margin-right: 15px;
+}
+.footer_inner p a{
+    font-size: 14px;
+    font-weight: 700;
+    font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    color:#5f1cc5;
+}
+/* footer section ending here */
+
+
+
